@@ -4513,15 +4513,18 @@ class PlayState extends MusicBeatState
 					FlxG.sound.play(Paths.soundRandom('thunder_', 1, 1)); //Play a Thunder Sound
 					FlxG.camera.shake(0.01, 0.5); //Shake the f***in' screen
 					FlxG.camera.flash(FlxColor.WHITE, 0.5); //Flash that sh** white
-					remove(dad);//lol get lost nerd
-					dad = new Character(100, 100, 'mareliaCharged');//Oh shit she went super saiyan
+					boyfriend.playAnim('scared', true); //BF and GF are canonically afraid of lightning
+					gf.playAnim('scared', true); //I mean honestly my hands are tied here
+					remove(dad); //lol get lost nerd
+					dad = new Character(100, 100, 'mareliaCharged'); //Oh sh** she went super saiyan
+					fastTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //Define that sh** again mofo
 					add(fastTrail); //Parallel Universe Time
-					add(dad);//oh lawd she comin'
+					add(dad); //oh lawd she comin'
 				case 1288:
 					remove(fastTrail); //Aight that's enough of that
-					remove(dad);//GET OUT OF HERE
-					dad = new Character(100, 100, 'marelia');//Calm the fuck down
-					add(dad);//wait no come back
+					remove(dad); //GET OUT OF HERE
+					dad = new Character(100, 100, 'marelia'); //Calm the f*** down
+					add(dad); //wait no come back
 			}
 		}
 

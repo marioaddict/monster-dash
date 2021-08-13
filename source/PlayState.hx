@@ -890,7 +890,8 @@ class PlayState extends MusicBeatState
 					{
 						defaultCamZoom = 0.8;
 						curStage = 'trackyard';
-						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('track_and_yard'));
+						trace('Loading trackyard BG');
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('track_and_yard', 'week1'));
 						if(FlxG.save.data.antialiasing)
 							{
 								bg.antialiasing = true;

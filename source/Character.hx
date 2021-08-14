@@ -17,6 +17,8 @@ class Character extends FlxSprite
 
 	public var holdTimer:Float = 0;
 
+	public var doNotInterrupt:Bool = false;
+
 	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false)
 	{
 		super(x, y);
@@ -510,9 +512,26 @@ class Character extends FlxSprite
 		}
 	}
 
-	public function playAnim(AnimName:String, Force:Bool = false, Reversed:Bool = false, Frame:Int = 0):Void
+	public function playAnim(AnimName:String, Force:Bool = false, Uninterruptible:Bool = false, Reversed:Bool = false, Frame:Int = 0):Void
 	{
+		if (doNotInterrupt && !Force)
+		{
+			trace('Ignoring $curCharacter.$AnimName animation request; currently playing an uninterruptible animation.');
+			return;
+		}
+
 		animation.play(AnimName, Force, Reversed, Frame);
+
+		// Make this animation uninterruptible... but only non-looped ones.
+		if (Uninterruptible && !animation.curAnim.looped)
+		{
+			doNotInterrupt = true;
+			animation.finishCallback = function(name) {
+				trace('Callback!');
+				doNotInterrupt = false;
+				animation.finishCallback = null;
+			}
+		}
 
 		var daOffset = animOffsets.get(AnimName);
 		if (animOffsets.exists(AnimName))

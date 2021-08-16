@@ -1,2 +1,3 @@
 Tutorial:gf:1
-Endurance:marelia:7
+Endurance:marelia:1
+Practice:marelia:1

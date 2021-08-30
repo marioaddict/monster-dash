@@ -136,6 +136,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'MareliaCharged Right', 24);
 				animation.addByPrefix('singDOWN', 'MareliaCharged Down', 24);
 				animation.addByPrefix('singLEFT', 'MareliaCharged Left', 24);
+				animation.addByPrefix('zap', 'MareliaCharged Zap', 24);
 			
 				loadOffsetFile(curCharacter);
 			

@@ -4555,18 +4555,21 @@ class PlayState extends MusicBeatState
 
 			switch (curBeat)
 			{
-				case 1112:
-					FlxG.sound.play(Paths.soundRandom('thunder_', 1, 1)); //Play a Thunder Sound
-					FlxG.camera.shake(0.01, 0.5); //Shake the f***in' screen
-					FlxG.camera.flash(FlxColor.WHITE, 0.5); //Flash that sh** white
-					boyfriend.playAnim('scared', true, true); //BF and GF are canonically afraid of lightning
-					gf.playAnim('scared', true); //I mean honestly my hands are tied here
+				case 1108: //1108 = 1 Measure Before the Hellchart
 					remove(dad); //lol get lost nerd
 					dad = new Character(100, 100, 'mareliaCharged'); //Oh sh** she went super saiyan
 					fastTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //Define that sh** again mofo
 					add(fastTrail); //Parallel Universe Time
 					add(dad); //oh lawd she comin'
-				case 1288:
+					dad.playAnim('zap', true); //god I hope this does what I want it to
+					FlxG.sound.play(Paths.sound('powerUp'));
+				case 1112: //1112 = Government Mandated Hellchart
+					FlxG.sound.play(Paths.soundRandom('thunder_', 1, 1)); //Play a Thunder Sound
+					FlxG.camera.shake(0.01, 0.5); //Shake the f***in' screen
+					FlxG.camera.flash(FlxColor.WHITE, 0.5); //Flash that sh** white
+					boyfriend.playAnim('scared', true, true); //BF and GF are canonically afraid of lightning
+					gf.playAnim('scared', true); //I mean honestly my hands are tied here
+				case 1288: //1288 = End of the Hellchart
 					remove(fastTrail); //Aight that's enough of that
 					remove(dad); //GET OUT OF HERE
 					dad = new Character(100, 100, 'marelia'); //Calm the f*** down

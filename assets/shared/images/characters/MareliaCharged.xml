@@ -1,18 +1,32 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TextureAtlas imagePath="MareliaCharged.png"><SubTexture name="MareliaCharged Idle0000" x="0" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
 <SubTexture name="MareliaCharged Idle0001" x="0" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0002" x="804" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0003" x="804" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0004" x="1608" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0005" x="1608" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0006" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0007" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0008" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0009" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0010" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
-<SubTexture name="MareliaCharged Idle0011" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0002" x="0" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0003" x="0" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0004" x="804" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0005" x="804" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0006" x="804" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0007" x="804" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0008" x="1608" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0009" x="1608" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0010" x="1608" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0011" x="1608" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
 <SubTexture name="MareliaCharged Idle0012" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
 <SubTexture name="MareliaCharged Idle0013" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0014" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0015" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0016" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0017" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0018" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0019" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0020" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0021" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0022" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0023" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0024" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0025" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0026" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Idle0027" x="2412" y="0" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
 <SubTexture name="MareliaCharged Down0000" x="0" y="804" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
 <SubTexture name="MareliaCharged Down0001" x="804" y="804" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
 <SubTexture name="MareliaCharged Down0002" x="804" y="804" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
@@ -73,4 +87,12 @@
 <SubTexture name="MareliaCharged Up0012" x="2412" y="3216" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
 <SubTexture name="MareliaCharged Up0013" x="2412" y="3216" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
 <SubTexture name="MareliaCharged Up0014" x="2412" y="3216" width="804" height="804" frameX="0" frameY="0" frameWidth="804" frameHeight="804" />
+<SubTexture name="MareliaCharged Zap0000" x="3216" y="0" width="804" height="1608" frameX="0" frameY="0" frameWidth="804" frameHeight="1608" />
+<SubTexture name="MareliaCharged Zap0001" x="4020" y="0" width="804" height="1608" frameX="0" frameY="0" frameWidth="804" frameHeight="1608" />
+<SubTexture name="MareliaCharged Zap0002" x="4824" y="0" width="804" height="1608" frameX="0" frameY="0" frameWidth="804" frameHeight="1608" />
+<SubTexture name="MareliaCharged Zap0003" x="5628" y="0" width="804" height="1608" frameX="0" frameY="0" frameWidth="804" frameHeight="1608" />
+<SubTexture name="MareliaCharged Zap0004" x="3216" y="1608" width="804" height="1608" frameX="0" frameY="0" frameWidth="804" frameHeight="1608" />
+<SubTexture name="MareliaCharged Zap0005" x="4020" y="1608" width="804" height="1608" frameX="0" frameY="0" frameWidth="804" frameHeight="1608" />
+<SubTexture name="MareliaCharged Zap0006" x="4824" y="1608" width="804" height="1608" frameX="0" frameY="0" frameWidth="804" frameHeight="1608" />
+<SubTexture name="MareliaCharged Zap0007" x="5628" y="1608" width="804" height="1608" frameX="0" frameY="0" frameWidth="804" frameHeight="1608" />
 </TextureAtlas>

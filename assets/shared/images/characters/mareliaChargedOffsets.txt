@@ -3,4 +3,4 @@ singUP 127 -7
 singRIGHT 127 -7
 singLEFT 127 -7
 singDOWN 127 -7
-zap 127 797
+zap 127 193

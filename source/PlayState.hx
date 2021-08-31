@@ -4561,8 +4561,8 @@ class PlayState extends MusicBeatState
 					fastTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //Define that sh** again mofo
 					add(fastTrail); //Parallel Universe Time
 					add(dad); //oh lawd she comin'
-					dad.playAnim('zap', true); //god I hope this does what I want it to
-					FlxG.sound.play(Paths.sound('powerUp'));
+					dad.playAnim('zap', true); //Don't hold up metal in a thunderstorm you dingus
+					FlxG.sound.play(Paths.sound('powerUp')); //woooooooOOOOOOOOOSH
 				case 1112: //1112 = Government Mandated Hellchart
 					FlxG.sound.play(Paths.soundRandom('thunder_', 1, 1)); //Play a Thunder Sound
 					FlxG.camera.shake(0.01, 0.5); //Shake the f***in' screen

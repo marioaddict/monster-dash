@@ -1,5 +1,6 @@
 package;
 
+import WaitForKeypress;
 import Song.Event;
 import openfl.media.Sound;
 #if sys
@@ -1304,32 +1305,19 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 				case 'endurance': //Credit to Rageminer996, basically took this code directly from Smoke 'Em Out Struggle
 					var introText:FlxSprite = new FlxSprite(-350, -200).loadGraphic(Paths.image('mareliaNote'));
-					//introText.setGraphicSize(Std.int(introText.width * 1.5));
 					introText.scrollFactor.set();
 					camHUD.visible = false;
 
 					add(introText);
-					//FlxG.sound.playMusic(Paths.music('city_ambience'), 0);
-					//FlxG.sound.music.fadeIn(1, 0, 0.8);
 
-					new FlxTimer().start(0.1, function(tmr:FlxTimer)
-					{
-						FlxG.sound.play(Paths.sound('pageTurn'));
-				
-						new FlxTimer().start(10, function(tmr:FlxTimer)
-						{
-							FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 2.5, {
-								ease: FlxEase.quadInOut,
-								onComplete: function(twn:FlxTween)
-								{
-									//FlxG.sound.music.fadeOut(2.2, 0);
-									remove(introText);
-									camHUD.visible = true;
-									schoolIntro(doof);
-								}
-							});
-						});
-					});
+					FlxG.sound.play(Paths.sound('pageTurn'));
+
+					new WaitForKeypress([FlxKey.ENTER], function() {
+						trace('Dismiss note');
+						remove(introText);
+						camHUD.visible = true;
+						schoolIntro(doof);
+					}).start();
 				default:
 					startCountdown();
 			}

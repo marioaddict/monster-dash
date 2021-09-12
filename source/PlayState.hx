@@ -4577,6 +4577,36 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		//Now do the exact same thing but in the other song
+		if (curSong == 'Practice') {
+			if (fastTrail == null) {
+				fastTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069);
+			}
+
+			switch (curBeat)
+			{
+				case 12: //12 = 1 Measure Before the Hellchart
+					remove(dad);
+					dad = new Character(100, 100, 'mareliaCharged');
+					fastTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069);
+					add(fastTrail);
+					add(dad);
+					dad.playAnim('zap', true);
+					FlxG.sound.play(Paths.sound('powerUp'));
+				case 16: //16 = Government Mandated Hellchart
+					FlxG.sound.play(Paths.soundRandom('thunder_', 1, 1));
+					FlxG.camera.shake(0.01, 0.5);
+					FlxG.camera.flash(FlxColor.WHITE, 0.5);
+					boyfriend.playAnim('scared', true, true);
+					gf.playAnim('scared', true);
+				case 192: //192 = End of the Hellchart
+					remove(fastTrail);
+					remove(dad);
+					dad = new Character(100, 100, 'marelia');
+					add(dad);
+			}
+		}
+
 		/*if (!dad.animation.curAnim.name.startsWith("sing"))
 		{
 			dad.dance();

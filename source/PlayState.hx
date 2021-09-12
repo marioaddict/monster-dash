@@ -1312,7 +1312,7 @@ class PlayState extends MusicBeatState
 
 					FlxG.sound.play(Paths.sound('pageTurn'));
 
-					new WaitForKeypress([FlxKey.ENTER], function() {
+					new WaitForKeypress([FlxKey.ENTER, FlxKey.SPACE], function() {
 						trace('Dismiss note');
 						remove(introText);
 						camHUD.visible = true;

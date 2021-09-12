@@ -4585,6 +4585,7 @@ class PlayState extends MusicBeatState
 
 			switch (curBeat)
 			{
+				// For the record, the beats needed here are the ones from the real song minus 1096
 				case 12: //12 = 1 Measure Before the Hellchart
 					remove(dad);
 					dad = new Character(100, 100, 'mareliaCharged');

@@ -4544,17 +4544,17 @@ class PlayState extends MusicBeatState
 			switch (curBeat)
 			{
 				case 1108: //1108 = 1 Measure Before the Hellchart
-					remove(dad); //lol get lost nerd
-					dad = new Character(100, 100, 'mareliaCharged'); //Oh sh** she went super saiyan
-					fastTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //Define that sh** again mofo
-					add(fastTrail); //Parallel Universe Time
-					add(dad); //oh lawd she comin'
 					dad.playAnim('zap', true); //Don't hold up metal in a thunderstorm you dingus
 					FlxG.sound.play(Paths.sound('powerUp')); //woooooooOOOOOOOOOSH
 				case 1112: //1112 = Government Mandated Hellchart
 					FlxG.sound.play(Paths.soundRandom('thunder_', 1, 1)); //Play a Thunder Sound
 					FlxG.camera.shake(0.01, 0.5); //Shake the f***in' screen
 					FlxG.camera.flash(FlxColor.WHITE, 0.5); //Flash that sh** white
+					remove(dad); //lol get lost nerd
+					dad = new Character(100, 100, 'mareliaCharged'); //Oh sh** she went super saiyan
+					fastTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //Define that sh** again mofo
+					add(fastTrail); //Parallel Universe Time
+					add(dad); //oh lawd she comin'
 					boyfriend.playAnim('scared', true, true); //BF and GF are canonically afraid of lightning
 					gf.playAnim('scared', true); //I mean honestly my hands are tied here
 				case 1288: //1288 = End of the Hellchart
@@ -4574,17 +4574,17 @@ class PlayState extends MusicBeatState
 			switch (curBeat)
 			{
 				case 12: //12 = 1 Measure Before the Hellchart
-					remove(dad);
-					dad = new Character(100, 100, 'mareliaCharged');
-					fastTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069);
-					add(fastTrail);
-					add(dad);
 					dad.playAnim('zap', true);
 					FlxG.sound.play(Paths.sound('powerUp'));
 				case 16: //16 = Government Mandated Hellchart
 					FlxG.sound.play(Paths.soundRandom('thunder_', 1, 1));
 					FlxG.camera.shake(0.01, 0.5);
 					FlxG.camera.flash(FlxColor.WHITE, 0.5);
+					remove(dad);
+					dad = new Character(100, 100, 'mareliaCharged');
+					fastTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069);
+					add(fastTrail);
+					add(dad);
 					boyfriend.playAnim('scared', true, true);
 					gf.playAnim('scared', true);
 				case 192: //192 = End of the Hellchart

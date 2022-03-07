@@ -1,3 +1,4 @@
 Tutorial:gf:1
 Endurance:marelia:1
+Foolhardy:zarelia:1
 Practice:marelia:1

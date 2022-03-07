@@ -141,6 +141,19 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 			
 				playAnim('idle');
+			case 'zarelia':
+				// Zarelia ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('Zarelia','shared',true);
+				frames = tex;
+				animation.addByPrefix('idle', 'Zarelia Idle', 24);
+				animation.addByPrefix('singUP', 'Zarelia Up', 24);
+				animation.addByPrefix('singRIGHT', 'Zarelia Right', 24);
+				animation.addByPrefix('singDOWN', 'Zarelia Down', 24);
+				animation.addByPrefix('singLEFT', 'Zarelia Left', 24);
+			
+				loadOffsetFile(curCharacter);
+			
+				playAnim('idle');
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('spooky_kids_assets','shared',true);
 				frames = tex;
